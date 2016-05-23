@@ -1,8 +1,10 @@
-body {background-color: teal;}
 body {
+	text-align: center;
 	background-color: transparent; 
-	background: "creative-graphic-design-desk-000091881605_Medium.jpg"
+	background: url (images/creative-graphic-design-desk-000091881605_Medium.jpg);
 	background-size: cover;
 	font-family: Helvetica;
-	text-align: center;}
-h1,p{color:white; font-family: Arial,sans serif;}
+}
+
+h1,p{color:white; font-family: Arial,sans serif;
+}

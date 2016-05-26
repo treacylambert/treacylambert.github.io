@@ -21,6 +21,7 @@
    position:absolute;
    bottom:0;
    width:100%;
+   float: left;
    height:60px;
    background:#6cf;
 }
@@ -40,7 +41,8 @@ h1 {
 	font-family: 'Khand', sans-serif;
   	color: #000000;
   	font-size: 40px;
-  	text-align: left;
+    font-style: italic;
+  	text-align: center;
 }
 
 h2 {
@@ -55,7 +57,7 @@ p {
   font-family: 'Dosis', sans-serif;
   color: #000000;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 .dimmed {

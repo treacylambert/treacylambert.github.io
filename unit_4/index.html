@@ -1,17 +1,65 @@
 <!DOCTYPE html>
-<html>
-      <head>
-        <title>UX Design / Graphic Design / Art Direction</title>
-      </head>
-      <body>
-<div class="div1">
-<h1><link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>GRAPHIC DESIGN | WEB DESIGN</h1>
-<p>Just kidding... With over 20+ years of professional design experience... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body { margin:0; } 
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 100%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header {
+    background-color: #000000;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px;
+    height: 100px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Pamplemousse</h1>
+<div class="col-6"><img src="../unit_4/images/IMG_4513_300DPI_SMALL.jpg">
+<h1>The City</h1></div>
+<div><p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+<p>Resize the browser window to see how the content respond to the resizing.</p>
 </div>
-<div id="footer"><p><link href='https://fonts.googleapis.com/css?family=Dosis:400' rel='stylesheet' type='text/css'><a href="mailto:treacy.lambert@gmail.com?subject=About Your General Assembly Class">Contact Me</a></p>
-</div>
-            <link rel="stylesheet" 
-      	type="text/css" 
-      	href="css/style.css"/>
-      </body>
+</body>
 </html>
